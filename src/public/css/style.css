@@ -1,0 +1,605 @@
+/* ===========================
+   Bà Miên Vote – Stylesheet
+   Migrated from PHP inline <style>
+   =========================== */
+
+:root {
+  --primary-color: #1976d2;
+  --primary-color-dark: #115293;
+  --primary-bg: #fff;
+  --secondary-bg: #f5f7fa;
+  --text-color: #222;
+  --border-radius: 14px;
+  --card-shadow: 0 4px 16px rgba(25, 118, 210, 0.08);
+  --card-shadow-hover: 0 8px 24px rgba(25, 118, 210, 0.13);
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --primary-gradient: linear-gradient(135deg, #1976d2 0%, #42a5f5 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: var(--secondary-bg);
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+/* ===========================
+   Container Utilities
+   =========================== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 1rem;
+}
+
+/* ===========================
+   Welcome / Login Card
+   =========================== */
+.welcome-card {
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+  animation: slideUp 0.6s ease-out;
+}
+
+.welcome-body {
+  padding: 2rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.modern-input {
+  width: 100%;
+  border: 2px solid #e1e5e9;
+  border-radius: 12px;
+  padding: 1rem;
+  font-size: 1rem;
+  transition: var(--transition);
+  background: #f8f9fa;
+  margin-bottom: 1rem;
+}
+
+.modern-input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.1);
+  background: white;
+  outline: none;
+}
+
+.btn-modern {
+  background: var(--primary-gradient);
+  border: none;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: var(--transition);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  width: 100%;
+}
+
+.btn-modern:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(25, 118, 210, 0.3);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* ===========================
+   Poll Container & Header
+   =========================== */
+.poll-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.poll-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1.2rem 1.5rem;
+  background: var(--primary-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  color: var(--text-color);
+}
+
+.poll-h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.poll-title p,
+.realtime-note {
+  margin: 0.3rem 0 0 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.realtime-note {
+  color: #43a047;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.time-selector {
+  margin-top: 0.5rem;
+}
+
+.time-form {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.time-label {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.time-select {
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--primary-color);
+  background: white;
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.total-votes {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-top: 0.3rem;
+}
+
+.poll-header-info {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+}
+
+.unvoted-count {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1rem;
+  background: #e3f2fd;
+  border-radius: 8px;
+  padding: 0.2rem 0.7rem;
+  margin-bottom: 0.2rem;
+}
+
+.user-voted-list {
+  color: var(--primary-color);
+  font-size: 0.98rem;
+  margin-bottom: 0.2rem;
+}
+
+.user-greeting {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #222;
+  font-size: 0.95rem;
+}
+
+.user-name {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-left: 0.2rem;
+}
+
+.logout-btn {
+  display: inline-block;
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 0.4rem 1.1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.logout-btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+/* ===========================
+   Poll Grid
+   =========================== */
+.poll-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem;
+}
+
+/* ===========================
+   Poll Cards
+   =========================== */
+.poll-card {
+  background: var(--primary-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  transition: var(--transition);
+  overflow: hidden;
+  animation: fadeInUp 0.6s ease-out;
+  border: 1px solid #e3f2fd;
+}
+
+.poll-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--primary-color);
+}
+
+.poll-card-full {
+  opacity: 0.6;
+  background: #f0f0f0;
+  border-color: #bdbdbd;
+}
+
+.poll-card-header {
+  padding: 0.8rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.poll-card-header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.7rem 0.8rem;
+}
+
+.poll-option-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  flex: 1;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.poll-card-body {
+  padding: 0.6rem 0.8rem;
+}
+
+/* Voters */
+.voters-section {
+  margin-top: 0.2rem;
+}
+
+.voters-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  justify-content: center;
+}
+
+.voter-tag {
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.voter-tag-me {
+  background: #fff0f0;
+  color: #d32f2f;
+  border: 1px solid #d32f2f;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.voter-tag-user {
+  background: rgb(2, 129, 255);
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #e0e0e0;
+  font-size: 1.1rem;
+}
+
+/* Card Footer / Actions */
+.poll-card-footer {
+  padding: 0.8rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.poll-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.poll-card-actions.poll-card-footer {
+  border-top: 1px solid #e9ecef;
+  padding: 0.7rem 0.8rem;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  justify-content: flex-end;
+}
+
+.inline-form {
+  display: inline;
+}
+
+/* Vote / Unvote Buttons */
+.vote-btn {
+  width: auto;
+  min-width: 60px;
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  background: #f3f8fd;
+  color: var(--primary-color);
+  border: 1px solid #b3d4fc;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.vote-btn:hover:not(:disabled) {
+  background: #e3f2fd;
+  color: var(--primary-color-dark);
+  border-color: #90caf9;
+}
+
+.vote-btn:active {
+  background: #e3f2fd;
+  color: var(--primary-color-dark);
+}
+
+.vote-btn-disabled {
+  background: #bdbdbd;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.vote-btn-disabled:hover {
+  background: #bdbdbd;
+  color: #fff;
+}
+
+.unvote-btn {
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.unvote-btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+/* Sold Out Toggle */
+.soldout-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+
+.soldout-toggle input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+
+.soldout-toggle span {
+  color: #666;
+}
+
+.soldout-toggle-checked span {
+  color: #d32f2f;
+}
+
+/* ===========================
+   Admin Page
+   =========================== */
+.admin-container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  padding: 2rem;
+}
+
+.admin-container h2 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.votes-info {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.files-info {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.files-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.file-tag {
+  background: #e3f2fd;
+  color: var(--primary-color);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.message {
+  margin: 1rem 0;
+  color: #388e3c;
+  font-weight: bold;
+}
+
+.error {
+  margin: 1rem 0;
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.input-password {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #bdbdbd;
+  font-size: 1rem;
+}
+
+.btn-clear {
+  background: #d32f2f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-clear:hover {
+  background: #b71c1c;
+}
+
+/* ===========================
+   WebSocket Status Indicator
+   =========================== */
+.ws-status {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 1000;
+  transition: var(--transition);
+}
+
+.ws-connected {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+}
+
+.ws-disconnected {
+  background: #fbe9e7;
+  color: #d32f2f;
+  border: 1px solid #ef9a9a;
+}
+
+/* ===========================
+   Animations
+   =========================== */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===========================
+   Responsive Design – Desktop Only
+   Mobile layout disabled
+   =========================== */

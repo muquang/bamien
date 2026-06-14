@@ -1,1 +1,24 @@
-!.gitignore
+# Dependencies
+node_modules/
+
+# Bun
+bun.lock
+
+# Database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.production.env
