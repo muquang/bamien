@@ -1,0 +1,146 @@
+{
+    "options": [
+        {
+            "id": 1,
+            "text": "Agra"
+        },
+        {
+            "id": 3,
+            "text": "Amarna"
+        },
+        {
+            "id": 2,
+            "text": "Amsterdam",
+            "sold_out": false
+        },
+        {
+            "id": 4,
+            "text": "Aten"
+        },
+        {
+            "id": 35,
+            "text": "Bruxen"
+        },
+        {
+            "id": 6,
+            "text": "Băng Cốc"
+        },
+        {
+            "id": 5,
+            "text": "Bắc Kinh"
+        },
+        {
+            "id": 34,
+            "text": "Colone"
+        },
+        {
+            "id": 7,
+            "text": "Copenhagen"
+        },
+        {
+            "id": 8,
+            "text": "Đại Lý"
+        },
+        {
+            "id": 9,
+            "text": "Hensiki"
+        },
+        {
+            "id": 10,
+            "text": "Homs"
+        },
+        {
+            "id": 11,
+            "text": "Izmir"
+        },
+        {
+            "id": 12,
+            "text": "Java"
+        },
+        {
+            "id": 13,
+            "text": "Karachi"
+        },
+        {
+            "id": 14,
+            "text": "Liễu thành"
+        },
+        {
+            "id": 15,
+            "text": "Memphis"
+        },
+        {
+            "id": 16,
+            "text": "Mông Cổ"
+        },
+        {
+            "id": 17,
+            "text": "New York"
+        },
+        {
+            "id": 18,
+            "text": "Nhật Bản(Đông Hải)"
+        },
+        {
+            "id": 19,
+            "text": "Oslo"
+        },
+        {
+            "id": 20,
+            "text": "Patras"
+        },
+        {
+            "id": 21,
+            "text": "Ri-át"
+        },
+        {
+            "id": 22,
+            "text": "Romaga"
+        },
+        {
+            "id": 23,
+            "text": "Sukhur"
+        },
+        {
+            "id": 24,
+            "text": "Suzdal"
+        },
+        {
+            "id": 26,
+            "text": "Thiva"
+        },
+        {
+            "id": 28,
+            "text": "Toscana"
+        },
+        {
+            "id": 25,
+            "text": "Tây Tạng"
+        },
+        {
+            "id": 27,
+            "text": "Tô Châu"
+        },
+        {
+            "id": 29,
+            "text": "Vacsava"
+        },
+        {
+            "id": 30,
+            "text": "Venice"
+        },
+        {
+            "id": 31,
+            "text": "Vienna"
+        },
+        {
+            "id": 32,
+            "text": "Vĩnh Định"
+        },
+        {
+            "id": 33,
+            "text": "Xiêm Riệp"
+        }
+    ],
+    "votes": []
+}

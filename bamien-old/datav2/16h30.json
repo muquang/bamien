@@ -1,0 +1,264 @@
+{
+    "options": [
+        {
+            "id": 1,
+            "text": "Agra"
+        },
+        {
+            "id": 3,
+            "text": "Amarna"
+        },
+        {
+            "id": 2,
+            "text": "Amsterdam"
+        },
+        {
+            "id": 4,
+            "text": "Aten"
+        },
+        {
+            "id": 35,
+            "text": "Bruxen",
+            "sold_out": false
+        },
+        {
+            "id": 6,
+            "text": "Băng Cốc"
+        },
+        {
+            "id": 5,
+            "text": "Bắc Kinh",
+            "sold_out": false
+        },
+        {
+            "id": 34,
+            "text": "Colone"
+        },
+        {
+            "id": 7,
+            "text": "Copenhagen",
+            "sold_out": true
+        },
+        {
+            "id": 8,
+            "text": "Đại Lý",
+            "sold_out": false
+        },
+        {
+            "id": 9,
+            "text": "Hensiki",
+            "sold_out": false
+        },
+        {
+            "id": 10,
+            "text": "Homs"
+        },
+        {
+            "id": 11,
+            "text": "Izmir"
+        },
+        {
+            "id": 12,
+            "text": "Java"
+        },
+        {
+            "id": 13,
+            "text": "Karachi"
+        },
+        {
+            "id": 14,
+            "text": "Liễu thành"
+        },
+        {
+            "id": 15,
+            "text": "Memphis"
+        },
+        {
+            "id": 16,
+            "text": "Mông Cổ",
+            "sold_out": true
+        },
+        {
+            "id": 17,
+            "text": "New York",
+            "sold_out": true
+        },
+        {
+            "id": 18,
+            "text": "Nhật Bản(Đông Hải)",
+            "sold_out": false
+        },
+        {
+            "id": 19,
+            "text": "Oslo",
+            "sold_out": false
+        },
+        {
+            "id": 20,
+            "text": "Patras"
+        },
+        {
+            "id": 21,
+            "text": "Ri-át"
+        },
+        {
+            "id": 22,
+            "text": "Romaga"
+        },
+        {
+            "id": 23,
+            "text": "Sukhur"
+        },
+        {
+            "id": 24,
+            "text": "Suzdal"
+        },
+        {
+            "id": 26,
+            "text": "Thiva"
+        },
+        {
+            "id": 28,
+            "text": "Toscana"
+        },
+        {
+            "id": 25,
+            "text": "Tây Tạng"
+        },
+        {
+            "id": 27,
+            "text": "Tô Châu",
+            "sold_out": false
+        },
+        {
+            "id": 29,
+            "text": "Vacsava"
+        },
+        {
+            "id": 30,
+            "text": "Venice"
+        },
+        {
+            "id": 31,
+            "text": "Vienna"
+        },
+        {
+            "id": 32,
+            "text": "Vĩnh Định"
+        },
+        {
+            "id": 33,
+            "text": "Xiêm Riệp"
+        }
+    ],
+    "votes": [
+        {
+            "id": 1,
+            "user_id": "NA37",
+            "option_id": 20,
+            "created_at": "2026-05-23 09:40:59"
+        },
+        {
+            "id": 2,
+            "user_id": "Truc",
+            "option_id": 27,
+            "created_at": "2026-05-23 09:48:56"
+        },
+        {
+            "id": 3,
+            "user_id": "Kitcam",
+            "option_id": 13,
+            "created_at": "2026-05-23 09:49:57"
+        },
+        {
+            "id": 4,
+            "user_id": "Kitcam",
+            "option_id": 35,
+            "created_at": "2026-05-23 09:50:44"
+        },
+        {
+            "id": 5,
+            "user_id": "Thúy",
+            "option_id": 5,
+            "created_at": "2026-05-23 09:52:05"
+        },
+        {
+            "id": 6,
+            "user_id": "Kitcam",
+            "option_id": 32,
+            "created_at": "2026-05-23 09:52:18"
+        },
+        {
+            "id": 7,
+            "user_id": "Truc",
+            "option_id": 3,
+            "created_at": "2026-05-23 09:52:27"
+        },
+        {
+            "id": 8,
+            "user_id": "Kitcam",
+            "option_id": 4,
+            "created_at": "2026-05-23 09:53:13"
+        },
+        {
+            "id": 9,
+            "user_id": "Truc",
+            "option_id": 32,
+            "created_at": "2026-05-23 09:53:55"
+        },
+        {
+            "id": 10,
+            "user_id": "Kitcam",
+            "option_id": 1,
+            "created_at": "2026-05-23 09:54:46"
+        },
+        {
+            "id": 11,
+            "user_id": "Thúy",
+            "option_id": 15,
+            "created_at": "2026-05-23 09:55:17"
+        },
+        {
+            "id": 12,
+            "user_id": "Kitcam",
+            "option_id": 8,
+            "created_at": "2026-05-23 09:55:51"
+        },
+        {
+            "id": 13,
+            "user_id": "Thúy",
+            "option_id": 1,
+            "created_at": "2026-05-23 09:56:59"
+        },
+        {
+            "id": 14,
+            "user_id": "Thúy",
+            "option_id": 18,
+            "created_at": "2026-05-23 09:57:46"
+        },
+        {
+            "id": 15,
+            "user_id": "Kitcam",
+            "option_id": 25,
+            "created_at": "2026-05-23 09:57:49"
+        },
+        {
+            "id": 16,
+            "user_id": "Thúy",
+            "option_id": 35,
+            "created_at": "2026-05-23 09:58:33"
+        },
+        {
+            "id": 17,
+            "user_id": "Thúy",
+            "option_id": 21,
+            "created_at": "2026-05-23 09:59:23"
+        },
+        {
+            "id": 18,
+            "user_id": "Thúy",
+            "option_id": 12,
+            "created_at": "2026-05-23 10:03:07"
+        }
+    ]
+}

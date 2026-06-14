@@ -1,0 +1,297 @@
+{
+    "options": [
+        {
+            "id": 1,
+            "text": "Agra"
+        },
+        {
+            "id": 3,
+            "text": "Amarna"
+        },
+        {
+            "id": 2,
+            "text": "Amsterdam"
+        },
+        {
+            "id": 4,
+            "text": "Aten"
+        },
+        {
+            "id": 35,
+            "text": "Bruxen"
+        },
+        {
+            "id": 6,
+            "text": "Băng Cốc"
+        },
+        {
+            "id": 5,
+            "text": "Bắc Kinh"
+        },
+        {
+            "id": 34,
+            "text": "Colone"
+        },
+        {
+            "id": 7,
+            "text": "Copenhagen"
+        },
+        {
+            "id": 8,
+            "text": "Đại Lý"
+        },
+        {
+            "id": 9,
+            "text": "Hensiki"
+        },
+        {
+            "id": 10,
+            "text": "Homs"
+        },
+        {
+            "id": 11,
+            "text": "Izmir"
+        },
+        {
+            "id": 12,
+            "text": "Java"
+        },
+        {
+            "id": 13,
+            "text": "Karachi"
+        },
+        {
+            "id": 14,
+            "text": "Liễu thành"
+        },
+        {
+            "id": 15,
+            "text": "Memphis"
+        },
+        {
+            "id": 16,
+            "text": "Mông Cổ"
+        },
+        {
+            "id": 17,
+            "text": "New York"
+        },
+        {
+            "id": 18,
+            "text": "Nhật Bản(Đông Hải)"
+        },
+        {
+            "id": 19,
+            "text": "Oslo"
+        },
+        {
+            "id": 20,
+            "text": "Patras"
+        },
+        {
+            "id": 21,
+            "text": "Ri-át"
+        },
+        {
+            "id": 22,
+            "text": "Romaga"
+        },
+        {
+            "id": 23,
+            "text": "Sukhur"
+        },
+        {
+            "id": 24,
+            "text": "Suzdal"
+        },
+        {
+            "id": 26,
+            "text": "Thiva"
+        },
+        {
+            "id": 28,
+            "text": "Toscana"
+        },
+        {
+            "id": 25,
+            "text": "Tây Tạng"
+        },
+        {
+            "id": 27,
+            "text": "Tô Châu"
+        },
+        {
+            "id": 29,
+            "text": "Vacsava"
+        },
+        {
+            "id": 30,
+            "text": "Venice"
+        },
+        {
+            "id": 31,
+            "text": "Vienna"
+        },
+        {
+            "id": 32,
+            "text": "Vĩnh Định"
+        },
+        {
+            "id": 33,
+            "text": "Xiêm Riệp",
+            "sold_out": false
+        }
+    ],
+    "votes": [
+        {
+            "id": 1,
+            "user_id": "Kitcam",
+            "option_id": 35,
+            "created_at": "2026-05-23 07:30:25"
+        },
+        {
+            "id": 2,
+            "user_id": "Kitcam",
+            "option_id": 10,
+            "created_at": "2026-05-23 07:31:17"
+        },
+        {
+            "id": 3,
+            "user_id": "Kitcam",
+            "option_id": 33,
+            "created_at": "2026-05-23 07:31:56"
+        },
+        {
+            "id": 4,
+            "user_id": "Kitcam",
+            "option_id": 19,
+            "created_at": "2026-05-23 07:32:50"
+        },
+        {
+            "id": 5,
+            "user_id": "NA37",
+            "option_id": 11,
+            "created_at": "2026-05-23 07:33:02"
+        },
+        {
+            "id": 6,
+            "user_id": "Kitcam",
+            "option_id": 13,
+            "created_at": "2026-05-23 07:34:57"
+        },
+        {
+            "id": 7,
+            "user_id": "NA37",
+            "option_id": 18,
+            "created_at": "2026-05-23 07:35:30"
+        },
+        {
+            "id": 8,
+            "user_id": "Thuý",
+            "option_id": 7,
+            "created_at": "2026-05-23 07:35:45"
+        },
+        {
+            "id": 9,
+            "user_id": "Kitcam",
+            "option_id": 26,
+            "created_at": "2026-05-23 07:37:11"
+        },
+        {
+            "id": 10,
+            "user_id": "Kitcam",
+            "option_id": 31,
+            "created_at": "2026-05-23 07:38:06"
+        },
+        {
+            "id": 11,
+            "user_id": "Thuý",
+            "option_id": 15,
+            "created_at": "2026-05-23 07:38:19"
+        },
+        {
+            "id": 12,
+            "user_id": "Thuý",
+            "option_id": 14,
+            "created_at": "2026-05-23 07:39:10"
+        },
+        {
+            "id": 13,
+            "user_id": "Kitcam",
+            "option_id": 23,
+            "created_at": "2026-05-23 07:40:00"
+        },
+        {
+            "id": 14,
+            "user_id": "Thuý",
+            "option_id": 22,
+            "created_at": "2026-05-23 07:40:15"
+        },
+        {
+            "id": 15,
+            "user_id": "Thuý",
+            "option_id": 3,
+            "created_at": "2026-05-23 07:41:19"
+        },
+        {
+            "id": 16,
+            "user_id": "Thuý",
+            "option_id": 25,
+            "created_at": "2026-05-23 07:42:26"
+        },
+        {
+            "id": 17,
+            "user_id": "Thuý",
+            "option_id": 16,
+            "created_at": "2026-05-23 07:43:14"
+        },
+        {
+            "id": 18,
+            "user_id": "Thuý",
+            "option_id": 27,
+            "created_at": "2026-05-23 07:44:15"
+        },
+        {
+            "id": 19,
+            "user_id": "Thuý",
+            "option_id": 12,
+            "created_at": "2026-05-23 07:44:59"
+        },
+        {
+            "id": 20,
+            "user_id": "Thuý",
+            "option_id": 30,
+            "created_at": "2026-05-23 07:45:47"
+        },
+        {
+            "id": 21,
+            "user_id": "Thuý",
+            "option_id": 29,
+            "created_at": "2026-05-23 07:46:43"
+        },
+        {
+            "id": 22,
+            "user_id": "Thuý",
+            "option_id": 17,
+            "created_at": "2026-05-23 07:47:35"
+        },
+        {
+            "id": 23,
+            "user_id": "Thuý",
+            "option_id": 6,
+            "created_at": "2026-05-23 07:48:17"
+        },
+        {
+            "id": 24,
+            "user_id": "Thuý",
+            "option_id": 20,
+            "created_at": "2026-05-23 07:50:17"
+        },
+        {
+            "id": 25,
+            "user_id": "asdasd",
+            "option_id": 3,
+            "created_at": "2026-06-12 08:22:00"
+        }
+    ]
+}
